@@ -1,2 +1,4 @@
 
-export OptimizelyShell from './optimizely.shell';
+import OptimizelyShell from './optimizely.shell';
+
+export default OptimizelyShell;

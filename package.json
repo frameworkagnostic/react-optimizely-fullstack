@@ -1,8 +1,9 @@
 {
   "name": "@thinkeloquent/react-optimizely-fullstack",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "./index.js",
   "scripts": {
+    "prepublish": "npm test",
     "postinstall": "bash ./tools/bin/postinstall.sh",
     "pretest": "bash ./tools/bin/pretest.sh",
     "test": "bash ./tools/bin/test.sh",
@@ -47,6 +48,7 @@
     "basil.js": "^0.4.5",
     "es6-promise": "^4.1.1",
     "isomorphic-fetch": "^2.2.1",
+    "prop-types": "^15.5.10",
     "uuid": "^3.1.0"
   },
   "jest": {
